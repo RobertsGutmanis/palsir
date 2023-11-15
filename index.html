@@ -6,8 +6,18 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="img/favicon.png" />
+    <link
+      href="img/favicon-light.png"
+      rel="icon"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      href="img/favicon-dark.png"
+      rel="icon"
+      media="(prefers-color-scheme: dark)"
+    />
 
+    <link rel="stylesheet" href="css/corvadt.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/responsive.css" />
 
@@ -15,4 +25,43 @@
 
     <title>Palsir</title>
   </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Palsir logo" src="img/palsir-logo.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link sheen" href="#">Support</a></li>
+          <li>
+            <a class="main-nav-link sheen" href="#">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link nav-cta sheen" href="#">Start Now</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-video">
+        <video controls>
+          <source src="video/vid.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <section class="section-actions">
+        <div class="container"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="copyright">
+          <p>Copyright &copy; 2023 by Palsir | All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
