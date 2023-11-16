@@ -12,6 +12,7 @@
   --palsir-video-dark: #1a1a1a;
   --palsir-footer-dark: #0f0f0f;
   --telegram-blue: #0088cc;
+  --telegram-blue--hover: #24a1de;
 }
 
 body {
@@ -179,6 +180,14 @@ body {
   color: white;
   margin-bottom: 6.4rem;
   cursor: pointer;
+  -webkit-transition: background 1s ease-in;
+  -moz-transition: background 1s ease-in;
+  -o-transition: background 1s ease-in;
+  transition: background 1s ease-in;
+}
+
+.join-button:hover {
+  background: var(--palsir-accent-light);
 }
 
 .support-label {
@@ -208,6 +217,12 @@ body {
   gap: 1.4rem;
   border-radius: 7px;
   color: #ffffff;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.support-button:hover {
+  background: var(--telegram-blue--hover);
 }
 
 .support-button-text {
