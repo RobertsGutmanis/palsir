@@ -187,6 +187,8 @@ body {
   border-radius: 30px;
   color: #ffffff;
   padding: 0.5rem rem;
+  display: flex;
+  justify-content: center;
 }
 
 .support-button-logo {
