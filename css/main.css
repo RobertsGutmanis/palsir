@@ -186,10 +186,6 @@ body {
   transition: background 1s ease-in;
 }
 
-.join-button:hover {
-  background: var(--palsir-accent-light);
-}
-
 .support-label {
   color: var(--palsir-accent-dark);
   font-size: 3.6rem;
