@@ -180,10 +180,6 @@ body {
   color: white;
   margin-bottom: 6.4rem;
   cursor: pointer;
-  -webkit-transition: background 1s ease-in;
-  -moz-transition: background 1s ease-in;
-  -o-transition: background 1s ease-in;
-  transition: background 1s ease-in;
 }
 
 .support-label {
