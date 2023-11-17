@@ -11,4 +11,34 @@
     .header{
         padding: 0 2rem;
     }
+    .join-label{
+        font-size: 5rem;
+    }
+    .support-label{
+        font-size: 3rem;
+    }
+    .join-button{
+        width: 60%;
+        font-size: 4rem;
+    }
+    .support-button{
+        width: 50%;
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .join-label{
+        font-size: 4rem;
+    }
+    .support-label{
+        font-size: 2.7rem;
+    }
+    .join-button{
+        width: 50vmin;
+        font-size: 3.5rem;
+    }
+    .support-button{
+        width: 45vmin;
+        font-size: 2.2rem;
+    }
 }
