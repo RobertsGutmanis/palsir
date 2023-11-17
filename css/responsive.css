@@ -1,0 +1,14 @@
+@media only screen and (max-width: 855px) {
+    .title{
+        font-size: 3.5rem;
+    }
+    .btn-mobile-nav{
+        display: block;
+    }
+    .main-nav{
+        display: none;
+    }
+    .header{
+        padding: 0 2rem;
+    }
+}

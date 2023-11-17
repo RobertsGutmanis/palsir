@@ -43,6 +43,7 @@ body {
 /* HEADER */
 
 .header {
+  z-index: 10000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,22 +96,72 @@ body {
 }
 
 /* MOBILE */
-.btn-mobile-nav {
-  border: none;
-  background: none;
+.btn-mobile-nav{
+  display: none;
   cursor: pointer;
-
-  display: none;
+  z-index: 50000;
+  right: 0;
+}
+.hide-menu{
+  transform: translateX(100%);
+}
+.show-menu{
+  transform: translateX(0%) !important;
+}
+.mobile-nav-menu{
+  transition: all .5s;
+  width: 320px;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 500;
+}
+.mobile-nav-footer{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 14rem;
+}
+.mobile-nav-footer-icons{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.nav-items{
+  height: 100%;
+  position: relative;
+  margin-top: 10.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.divider{
+  width: 100%;
+  background-color: grey;
+  height: 1px;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
 }
 
-.icon-mobile-nav {
-  height: 4.8rem;
-  width: 4.8rem;
-  color: #333;
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
 }
 
-.icon-mobile-nav[name="close-outline"] {
-  display: none;
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
 }
 
 /* TITLE SECTION */
@@ -141,6 +192,10 @@ body {
   background-color: var(--palsir-video-dark);
   padding: 4.8rem 0;
 }
+.video{
+  height: auto;
+  width: 95vmin;
+}
 
 /* ACTIONS SECTION */
 .section-actions {
@@ -158,7 +213,6 @@ body {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 1rem;
   font-size: 7.4rem;
   padding: 1.8rem 0;
   margin-bottom: 0.6rem;
@@ -234,4 +288,25 @@ body {
 
 .copyright {
   color: white;
+}
+
+
+/* MISC */
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.display-none{
+  display: none;
+}
+.position-fixed{
+  position: fixed;
+  padding-right: 2rem;
+}
+.fa::before{
+  font-size: 3rem;
+}
+.fa-telegram::before{
+  color: var(--telegram-blue);
 }
