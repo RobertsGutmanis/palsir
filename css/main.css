@@ -191,7 +191,7 @@ body {
 /* TITLE SECTION */
 
 .section-title {
-  padding: 22rem 0;
+  padding: 16rem 0;
 }
 
 .title {
@@ -218,7 +218,7 @@ body {
 }
 .video {
   height: auto;
-  width: 60vmax;
+  width: 70vmax;
 }
 
 /* ACTIONS SECTION */
@@ -252,7 +252,7 @@ body {
   -webkit-text-fill-color: #ffffff;
   border-radius: 7px;
   padding: 0.9rem 1.4rem;
-  width: 45%;
+  width: 55%;
   font-size: 4.8rem;
   font-weight: bold;
   color: white;
@@ -266,7 +266,7 @@ body {
   font-weight: normal;
   margin-bottom: 1.2rem;
 }
-.actions-join{
+.actions-join {
   margin-bottom: 2rem;
 }
 
@@ -283,7 +283,7 @@ body {
   border: none;
   padding: 0.7rem 4rem;
   font-size: 2.8rem;
-  width: 40%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -314,37 +314,37 @@ body {
   padding: 7rem 0;
 }
 
-.footer-logo{
+.footer-logo {
   width: 100px;
 }
-.footer-links{
+.footer-links {
   display: flex;
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
-.footer-links h2{
+.footer-links h2 {
   font-weight: normal;
 }
-.footer-container{
+.footer-container {
   gap: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 2rem 0 ;
+  margin: 2rem 0;
 }
-.footer-icons{
+.footer-icons {
   /*padding: 0 1rem;*/
   display: flex;
   gap: 2rem;
 }
-.footer-text{
+.footer-text {
   color: white;
 }
 .copyright {
   color: white;
 }
-.footer-icon::before{
+.footer-icon::before {
   color: white !important;
 }
 
@@ -363,7 +363,6 @@ body {
 }
 .fa::before {
   font-size: 3rem;
-  transition: all .2s;
+  transition: all 0.2s;
   color: #0f0f0f;
 }
-
