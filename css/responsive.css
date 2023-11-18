@@ -1,11 +1,11 @@
 @media only screen and (max-width: 855px) {
   .title {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
-  .btn-mobile-nav {
-    display: block;
-    margin: 0 1rem;
-  }
+  /*.btn-mobile-nav {*/
+  /*  display: block;*/
+  /*  margin: 0 1rem;*/
+  /*}*/
   .main-nav {
     display: none;
   }
