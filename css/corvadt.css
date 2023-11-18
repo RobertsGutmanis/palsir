@@ -19,7 +19,9 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
-
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;

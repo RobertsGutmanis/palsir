@@ -118,6 +118,7 @@ body {
   transform: translateX(0%) !important;
 }
 .mobile-nav-menu {
+  padding: 0 4rem;
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -127,16 +128,18 @@ body {
   z-index: 500;
 }
 .mobile-nav-footer {
+  width: 100%;
+  display: flex;
   position: absolute;
   bottom: 0;
   margin-bottom: 14rem;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
 .mobile-nav-footer-icons {
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
   margin-bottom: 2rem;
@@ -153,7 +156,7 @@ body {
   margin-top: 10.5rem;
   display: flex;
   flex-direction: column;
-  padding: 0 4rem;
+  /*padding: 0 4rem;*/
   align-items: flex-start;
   justify-content: flex-start;
   gap: 2rem;
@@ -220,7 +223,7 @@ body {
 
 /* ACTIONS SECTION */
 .section-actions {
-  padding: 5.6rem 0;
+  padding: 7rem 0;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -263,6 +266,9 @@ body {
   font-weight: normal;
   margin-bottom: 1.2rem;
 }
+.actions-join{
+  margin-bottom: 2rem;
+}
 
 .actions-support {
   gap: 2rem;
@@ -294,6 +300,7 @@ body {
 
 .support-button-text {
   font-weight: bold;
+  color: #ffffff;
 }
 
 .support-button-logo {
@@ -304,11 +311,41 @@ body {
 /* FOOTER */
 .footer {
   background-color: var(--palsir-footer-dark);
-  padding: 9.6rem 0;
+  padding: 7rem 0;
 }
 
+.footer-logo{
+  width: 100px;
+}
+.footer-links{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.footer-links h2{
+  font-weight: normal;
+}
+.footer-container{
+  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 0 ;
+}
+.footer-icons{
+  /*padding: 0 1rem;*/
+  display: flex;
+  gap: 2rem;
+}
+.footer-text{
+  color: white;
+}
 .copyright {
   color: white;
+}
+.footer-icon::before{
+  color: white !important;
 }
 
 /* MISC */
@@ -326,5 +363,7 @@ body {
 }
 .fa::before {
   font-size: 3rem;
-  color: black;
+  transition: all .2s;
+  color: #0f0f0f;
 }
+
