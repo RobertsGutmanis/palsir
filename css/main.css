@@ -218,7 +218,7 @@ body {
 }
 .video {
   height: auto;
-  width: 95vmin;
+  width: 60vmax;
 }
 
 /* ACTIONS SECTION */
