@@ -216,8 +216,11 @@ body {
   padding: 4.8rem 0;
 }
 .video {
-  height: 600px;
-  width: 70vmax;
+  /*height: 600px;*/
+  /*width: 70vmax;*/
+  width: 60%;
+  height: auto;
+  aspect-ratio: 16/9;
 }
 
 /* ACTIONS SECTION */
